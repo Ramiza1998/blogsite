@@ -1,4 +1,5 @@
-.layout{
+@import url(reset.css);
+  .layout{
   height: 100%;
   display: flex;
   flex-direction: column;

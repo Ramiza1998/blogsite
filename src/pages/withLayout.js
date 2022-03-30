@@ -1,12 +1,8 @@
-import  React, { Component } from "react"
+import  React from "react"
 import { Link } from "react-router-dom";
 
 function withLayout(Component){
     function Layout(){
-
-}
-
-function Layout(){
     
     return(
         <div className='layout'>
@@ -15,8 +11,8 @@ function Layout(){
       <div>
       <nav>
       <span className="nav-link"><Link to="/">Home</Link></span>
-      <span className="nav-link"><Link to="/">About</Link></span>
-      <span className="nav-link"><Link to="/">Blog</Link></span>
+      <span className="nav-link"><Link to="/about">About</Link></span>
+      <span className="nav-link"><Link to="/blog">Blog</Link></span>
       </nav>
       </div>
         </header>
